@@ -1,0 +1,19 @@
+<div class="container-fluid">
+    <div class="row py-4 mr-4 ml-4">
+        <div class="col-sm-6 col-md-3 col-xs-12" *ngFor="let vagas of vagas">
+            <div class="card-vagas" >
+                <div class="detalhe-vagas sombra">
+                    <h2>{{vagas.titulo}}</h2>
+                    <ul>
+                        <li>Descrição: {{ vagas.descricao}}</li>
+                        <li>Requisitos: {{vagas.requisitos}}</li>
+                        <li>Salário: {{vagas.salario}}</li>
+                        <li>Cidade: {{vagas.cidade}}</li>
+                        <li>Área {{vagas.area}}</li>
+                    </ul>
+                </div>
+                <div class="preco-botao">
+                    <a href="#" class="btn btn-verMais">Ver mais...</a>
+                </div>
+            </div>
+        </div>

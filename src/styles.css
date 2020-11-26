@@ -1,0 +1,124 @@
+/* TOPO =================================== */
+.bg-topo{
+    background-color: #78e961;
+}
+
+.ul-topo{
+    margin-left: auto;
+}
+
+.btn-divulgue{
+    border: 2px solid #fff;
+    background: none;
+    position: relative;
+    color: #fff;
+    z-index: 1;
+    border-radius: 30px;
+    height: 100%;
+}
+
+.btn-divulgue:hover{
+    color:#78e961;
+    background: #fff;
+    border-color: #fff;
+    transition: all .50s ease-in-out;
+    -moz-transition: all .50s ease-in-out;
+    -webkit-transition: all .50s ease-in-out;
+}
+/* PARALLAX ================================= */
+.bg-parallax{
+    background: url(assets/parallax2.png) center fixed;
+    position: relative;
+    height: 250px;
+    background-size: cover;
+    -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+}
+
+.buscar-vaga{
+    margin-top: 40px;
+    background-color: #300bffad;
+    border: 1px solid #300bff6e;
+    border-radius: 10px;
+    z-index: 2;
+    color: #fff;
+    
+}
+
+.buscar-vaga h3{
+    text-align: center;
+}
+
+.div-filtros{
+    margin: auto 0 auto auto;
+}
+
+.btn-filtros{
+    background: linear-gradient(131.26deg,#9cf0a3 30%, #aee3fc 100%);
+    color: #111111;
+    font-weight: bolder;
+    border-radius: 30px;
+    height: 50px;
+    }
+
+    .btn-filtros:hover{
+        background: linear-gradient(131.26deg,#aee3fc 30%, #9cf0a3 100%);
+    }
+
+/* SEÇÃO DAS VAGAS ==========================*/
+.card-vagas{
+    padding: 0 0 40px 0;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    background-color: #fff;
+    border: 1px solid #f1f1f1; 
+}
+
+.card-vagas .detalhe-vagas h2{
+    font-size:20px;
+    font-weight: 700;
+    text-align:center;
+    color:#333;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    background-color: #9cf0a3;
+    padding: 20px 0;
+}
+
+.card-vagas .detalhe-vagas ul{
+    margin-bottom: 35px;
+    padding: 0 !important;
+}
+
+.card-vagas .detalhe-vagas ul li{
+    padding:3px;
+    font-size: 15px;
+    border-bottom: 1px dotted #f1f1f1;
+    list-style: none;
+}
+.preco-botao{
+    text-align: center;
+}
+
+.btn-verMais{
+    border: 1px solid #bfc1c2;
+    background-color: #bfc1c2;
+    position: relative;
+    color: #111111;
+    z-index: 1;
+    border-radius: 30px;
+}
+
+.btn-verMais:hover{
+    color:#111111;
+    background-color: #9cf0a3;
+    border-color:#111111 ;
+    transition: all .50s ease-in-out;    
+    -moz-transition: all .50s ease-in-out;
+    -webkit-transition: all .50s ease-in-out;
+}
+
+.sombra:hover{
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.1);
+}
